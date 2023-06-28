@@ -18,7 +18,7 @@ This module is going to create following resources. It can automatically fetch t
 
 #### Name format
 **for subnets:** [project_name]-public/private/database-1a/1b <br/>
-**for routetables:** [project_name]-public/private/database
+**for routetables:** [project_name]-public/private/database <br/>
 
 ### Arguments
 
@@ -45,3 +45,9 @@ This module is going to create following resources. It can automatically fetch t
 **public_route_table_tags** (Optional) - User can provide tags, other wise empty <br/>
 
 **database_route_table_tags** (Optional) - User can provide tags, other wise empty <br/>
+
+### Outputs
+
+vpc_id - this is the ID of vpc created <br/>
+
+private_subnet_ids, public_subnet_ids, database_subnet_ids
